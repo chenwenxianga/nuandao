@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>暖岛</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index640.css" media="screen and (max-width:640px)">
+
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <div id="logo"></div>
+      <div class="search hidden-sm hidden-xs">
+        <div class="input-group inputdiv">
+          <input class="form-control search-query" type="text" id="search" placeholder="搜索问题、话题或人">
+          <i class="glyphicon glyphicon-search sear"></i>
+
+          <div class="twolist">
+          </div>
+        </div>
+      </div>
+      <div class="user">
+        <span>
+          <strong id="cart" class="hidden-sm hidden-xs"><a href="#">购物车</a><b class="amout">0</b></strong>          
+          <span id="head">
+            <span id="id">
+              <a class="register btn btn-normal btn-success" href="login.html">注册</a>
+              <a class="login btn btn-normal btn-primary" href=" register.html">登录</a>
+            </span>
+        </span>
+        </span>
+      </div>
+
+    </div>
+
+  </nav>
+  <section>
+    <!-- 分类导航 -->
+    <nav class="nav-lead">
+      <div class="nav-content">
+        <div class="glyphicon glyphicon-menu-hamburger"></div>
+        <div class="row ">
+          <ul class="navli  col-md-offset-2 " id="nav">
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 轮播图 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/banner1.jpg" alt="">
+          <div class="carousel-caption">
+
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/banner2.jpg" alt="">
+          <div class="carousel-caption">
+
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/banner3.png" alt="">
+          <div class="carousel-caption">
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <!-- 商品展示 -->
+    <div class="container">
+      <h3>分类展示</h3>
+      <div class="row" id="goodsList">
+        
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 footerdiv">
+          <div>
+            <ul>
+              <li>逛逛暖岛</li>
+              <li>登录注册</li>
+              <li>下单及支付</li>
+              <li>使用代金券</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>订单详情</li>
+              <li>查询订单</li>
+              <li>追踪物流</li>
+              <li>配送费用</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li> 退货换货</li>
+              <li>退换规则</li>
+              <li>退换方式</li>
+              <li>退款时间</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>关于暖岛</li>
+              <li>暖岛故事</li>
+              <li>合作机会</li>
+              <li>加入暖岛</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-3 hidden-xs">
+          <div class="footer-r hidden-xs">
+            <h5>订阅电子报</h5>
+              <input type="text">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

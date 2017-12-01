@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    color: #505050;
+    font-size: 14px;
+    background: #ebebeb;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+header{
+    width: 100%;
+    height: 214px;
+    overflow: hidden;
+}
+.bg{
+    width: 100%;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    margin-top:65px;
+}
+/* 导航栏 */
+.nav-lead{
+    width: 100%;
+    height: 56px;
+    background: #ffffff;
+}
+.glyphicon-menu-hamburger{
+    display: none;
+}
+nav .navli{
+    width: 600px;
+    margin: 0 auto;
+    line-height:56px;   
+}
+nav .navli li{ 
+    list-style: none;
+    float: left;
+    padding:0 21px;
+
+} 
+
+nav .navli li a{
+    text-decoration: none;
+    color:#505050;
+}
+nav .navli li a:hover{
+    color: #e67e22;
+    outline: none;
+}
+/* 内容部分 */
+.content{
+    margin-top:30px;
+
+}
+.part{
+    padding:20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.widget{   
+    padding:21px 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.widget .title{
+    margin-top: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+    font-weight: 600px;
+    font-size: 1.5em;
+}
+
+.widget .title:after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #e67e22;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.my-btn-widget{
+    width: 100%;
+}
+.widget-btn a{
+    border: 1px solid #ebebeb;
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.widget-btn a:hover{
+    text-decoration: none;
+    color:wheat;
+    background-color: #e67e22;
+}
+.post-content p{
+    line-height: 1.5em;
+    font-size: 1.3em;
+    margin: 1.46em 0;
+    color:#333;
+}
+.select::selection{
+    color: #ffffff;
+    background: #e67e22;
+    text-shadow: none;
+
+}
+
+.btn-cover .my-btn{
+    background-color: #e67e22;
+    color:white;
+}
+.btn-cover .my-btn:hover{
+    background-color: black;
+    color: white;
+
+}
+.orange{
+    color:#e67e22;
+}
+.post-footer{
+    height: 20px;
+    margin:30px 0;
+    border-top: 1px solid #ebebeb;
+}
+.post-footer p{
+    padding-top: 20px;
+}
+
+/* 翻页 */
+.page{
+    margin-left: 40%;
+}
+.page li a{
+    background-color: #e67e22;
+    color:white;
+    margin-right: 10px;
+}
+
+/* fooeter */
+footer{
+    width: 100%;
+    background-color: #202020;
+}
+footer .title{
+    margin-top: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #303030;
+    margin-bottom: 21px;
+    position: relative;
+    font-weight: 600px;
+    font-size: 1.5em;
+    color:white;
+}
+
+footer .title:after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #e67e22;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.footer-content{
+    width: 90%;
+    margin:0 auto;
+    
+}
+.row .footer-col{
+    width: 30%;
+    padding:0 30px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+}
+.row .footer-col a{
+    border-color: #303030;
+}
+footer p{
+    border-bottom: 1px dotted #303030;
+}
+footer span{
+    display: block;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+footer .title-lev{
+    color:#959595;
+}

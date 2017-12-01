@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单结算</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div id="logo"></div>
+            <div class="search hidden-sm hidden-xs">
+                <div class="input-group inputdiv">
+                    <input class="form-control search-query" type="text" id="search" placeholder="搜索问题、话题或人">
+                    <i class="glyphicon glyphicon-search sear"></i>
+
+                    <div class="twolist"></div>
+                </div>
+            </div>
+            <div class="user">
+                <span>
+                    <strong id="cart" class="hidden-sm hidden-xs"><a href="#">购物车</a><b class="amout">0</b></strong>           
+                    <span id="head">
+                        <a class="register btn btn-normal btn-success" href="login.html">注册</a>
+                        <a class="login btn btn-normal btn-primary" href="register.html">登录</a>
+                    </span> 
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!--  -->
+    <section>
+        <div class="container hidden-sm hidden-xs">
+            <div class="row">
+                <div class="process m-hidden">
+                    <div class="one col-md-4">1.查看购物车</div>
+                    <div class="two col-md-4">2.确认订单</div>
+                    <div class="three col-md-4">3.提交成功</div>
+                    <div class="flow col-md-12"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="address">
+
+                </div> -->
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-12">
+                    <h4>确认收货地址</h4>
+                    <div class="address">
+                            
+                                            </div>
+                    <div class="head col-md-12">
+                        <div>
+                            <input type="button" class="new" value="使用新地址">
+                        </div>
+
+                        <div class="add col-md-5 col-sm-6 col-xs-12" id="add">
+                            <form action="">
+                                <p>
+                                    收货人：
+                                    <input type="text" name="address_name" placeholder="请输入收货人姓名" />
+                                </p>
+                                <p>
+                                    手机：
+                                    <input type="text" name="mobile" placeholder="请输入收货人手机" />
+                                </p>
+                                <p>
+                                    省份：
+                                    <input type="text" name="province" placeholder="请输入收货人省" />
+                                </p>
+                                <p>
+                                    市：
+                                    <input type="text" name="city" placeholder="请输入收货人市" />
+                                </p>
+                                <p>
+                                    区：
+                                    <input type="text" name="district" placeholder="请输入收货人区" />
+                                </p>
+                                <p>
+                                    地址：
+                                    <input type="text" name="address" placeholder="请输入收货人地址" />
+                                </p>
+                                <input type="button" id="btn" value="保存新地址" />
+
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-me-12 tip">
+                    <span>大多数主要城市订单在付款后5-7工作日到达，其他地区需要10个工作，较偏远/非直递目的地则需10-14邮递工作日到达。 但若阁下于订单寄出后14工作日仍未收到的话，请阅读我们的清关细则或者直接联系我们，我们会尽力尝试为您追踪包裹。 您可发送电邮至：help@SOS.com联系我们。</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row ">
+                <div class="price">
+                    <div class="col-md-8">
+                            <div class="price-sale">      
+                                    <span>
+                                        <b>激活代金券&nbsp;&nbsp;&nbsp;</b>
+                                        <input class="input" type="text" placeholder="请输入优惠码" id="coupon-number">
+                                        <a class="btn btn-sm" id="activate-coupon" >激活</a>
+                                    </span>
+                            </div>    
+                                    
+                    </div>
+                    <div class="col-md-4 cht">
+                        <p>付款金额<span class="money">元</span></p>
+                        <p>收货地址:<span id="getaddr"></span></p>
+                        <button class="order">确认订单</button>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  col-xs-12 footerdiv">
+                    <div>
+                        <ul>
+                            <li>逛逛暖岛</li>
+                            <li>登录注册</li>
+                            <li>下单及支付</li>
+                            <li>使用代金券</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>订单详情</li>
+                            <li>查询订单</li>
+                            <li>追踪物流</li>
+                            <li>配送费用</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li> 退货换货</li>
+                            <li>退换规则</li>
+                            <li>退换方式</li>
+                            <li>退款时间</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>关于暖岛</li>
+                            <li>暖岛故事</li>
+                            <li>合作机会</li>
+                            <li>加入暖岛</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-3 hidden-xs">
+                    <div class="footer-r hidden-xs">
+                        <h5>订阅电子报</h5>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/checkout.js"></script>
+</body>
+
+</html>

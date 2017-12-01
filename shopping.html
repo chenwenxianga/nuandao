@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/shopping.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div id="logo"></div>
+            <div class="search hidden-sm hidden-xs">
+                <div class="input-group inputdiv">
+                    <input class="form-control search-query" type="text" id="search" placeholder="搜索问题、话题或人">
+                    <i class="glyphicon glyphicon-search sear"></i>
+
+                    <div class="twolist"></div>
+                </div>
+            </div>
+            <div class="user">
+                <span>
+                    <strong id="cart" class="hidden-sm hidden-xs"><a href="#">购物车</a><b class="amout">0</b></strong>           
+                    <span id="head">
+                        <a class="register btn btn-normal btn-success" href="login.html">注册</a>
+                        <a class="login btn btn-normal btn-primary" href="register.html">登录</a>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+    <section>
+        <div class="container hidden-sm hidden-xs">
+            <div class="row">
+                <div class="process m-hidden">
+                    <div class="one col-md-4">1.查看购物车</div>
+                    <div class="two col-md-4">2.确认订单</div>
+                    <div class="three col-md-4">3.提交成功</div>
+                    <div class="flow col-md-12"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-12">
+                    <h4>我的购物车</h4>
+                    <div class="head">
+
+                        <div class="col-md-3 col-sm-3 col-xs-3 sel"><input type="checkbox" id="selectAll">全选</div>
+                        <div class="col-md-4 col-sm-4 col-xs-3">商品</div>
+                        <div class="col-md-2 col-sm-2 col-xs-3">单价</div>
+                        <div class="col-md-2 col-sm-2  col-xs-3">&nbsp;&nbsp; 数量</div>
+                        <div class="col-md-1 col-sm-1  hidden-xs"><span>总</span></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                
+                <div class="good-list">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="account">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <p class="shop-set-box-ri-1">
+                            已选商品
+                            <em id="Amount">0</em>
+                            <span>
+                                总价（不含运费）
+                                <em id="Money">￥0</em>
+                            </span>
+                        </p>
+                        <a id="checkout">去结算</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!--  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  col-xs-12 footerdiv">
+                    <div>
+                        <ul>
+                            <li>逛逛暖岛</li>
+                            <li>登录注册</li>
+                            <li>下单及支付</li>
+                            <li>使用代金券</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>订单详情</li>
+                            <li>查询订单</li>
+                            <li>追踪物流</li>
+                            <li>配送费用</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li> 退货换货</li>
+                            <li>退换规则</li>
+                            <li>退换方式</li>
+                            <li>退款时间</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>关于暖岛</li>
+                            <li>暖岛故事</li>
+                            <li>合作机会</li>
+                            <li>加入暖岛</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-3 hidden-xs">
+                    <div class="footer-r hidden-xs">
+                        <h5>订阅电子报</h5>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/shopping.js"></script>
+</body>
+
+</html>

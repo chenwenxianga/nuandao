@@ -1,0 +1,251 @@
+/* 导航栏 */
+
+html,body{
+    background-color: #ECF7F8;
+}
+#logo {
+    width: 100px;
+    height: 50px;
+    background: url(../img/all.png);
+    background-position: -50px -272px;  
+}
+.container {
+    padding:0 7%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    
+}
+.nav{
+    height: 50px;
+    background-color: black;
+}
+.inputdiv{
+    position: relative;
+    top:8px;
+}
+.sear{
+    position: absolute;
+    right:5px;
+    top:12px;
+    display: block;
+    z-index: 999;
+}
+.search, .naviga , .user, #logo, .cart{
+    float: left;
+}
+.naviga{
+    padding-left: 50px;
+    line-height: 50px;
+    
+}
+.finder{
+    padding-right:30px;
+}
+.user{
+    line-height: 50px;
+    /* position: relative; */
+    float: right;
+    z-index: 9999;
+}
+
+.twolist{
+    position: absolute;
+    top:105%;
+    left: 0;  
+    width: 355px;
+    padding:6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    z-index: 9999;
+
+}
+.twolist p a{
+    text-decoration: none;
+    color: black;
+}
+.twolist .result{
+    display: none;
+}
+.amout {
+    color:white;
+    background: #3ec0a3;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 10px 0 4px;
+}
+.username{
+    background-color: black;
+    border:none;
+    color:white;
+}
+#cart a{
+    text-decoration: none;
+}
+
+/* section */
+section{
+    margin-top:30px;
+    min-height: 800px;
+}
+.empty{
+    text-align: center;
+    margin:50px 0;
+}
+.process {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.process .flow {
+    background: url(../img/flow.png) no-repeat 0 0;
+    height: 10px;
+    width: 100%;
+    margin-top: 12px;
+    left:15px;   
+}
+.content{
+    margin-top: 20px;
+}
+.content .head{
+    height: 54px;
+    background-color: #EDE9E9;
+    line-height: 54px;
+}
+.head div:last-child span{
+    padding-left: 20px;
+}
+.content h4{
+    font-size: 16px;
+    line-height: 18px;
+    border-left: 4px solid #3ec0a3;
+    padding-left: 8px;
+    
+}
+/*  */
+.goods{
+    height: 100px;
+    line-height: 100px;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+
+.goods-box img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:780px){
+    .goods-box img {
+     display: none
+     }
+}
+.goods-box input{
+    width: 17px;
+    height: 18px;
+    margin:0px 7px 0 15px;
+}
+.left-button{
+    width: 22px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    cursor:pointer;
+    float: left;
+    
+}
+.cen{
+    height: 20px;
+    line-height: 20px;
+    margin-top:39px;
+}
+.good-name{
+    width: 100%;
+    text-overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.right-button{
+    float: left;
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    cursor:pointer;
+    
+}
+.center-text{
+    width: 22px;
+    height: 22px;
+    float: left;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+
+}
+
+#checkout{
+    display: block;
+    padding:15px 38px;
+    width:126px;
+    margin-top: 14px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #3ec0a3;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+#Money{
+    color:#F15151;
+    font-size: 20px;
+}
+/* footer */
+footer{
+    width: 100%;
+    margin-top: 40px;
+    background-color: black;
+
+
+}
+.footerdiv{
+    overflow: hidden;
+}
+.footerdiv div{
+    float: left;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.footerdiv div ul{
+    padding:0;
+    padding-right: 20px;
+}
+.footerdiv div ul:last-child{
+    padding-right: 0;
+}
+.footerdiv div ul li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.footerdiv div ul li:nth-child(1){
+    color:#999;
+}
+.footer-r{
+    margin-top:35px; 
+}
+.footer-r input{
+    background-color: #999;
+    border:none;
+    outline: none;
+}

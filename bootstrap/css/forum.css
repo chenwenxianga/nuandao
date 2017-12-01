@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    color: #505050;
+    font-size: 14px;
+    background: #ebebeb;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+.logo {
+    width: 100px;
+    background: url(../img/all.png);
+    background-position: -50px -272px;  
+}
+.container {
+    padding:0 7%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+}
+.inputdiv{
+    position: relative;
+    top:8px;
+}
+.sear{
+    position: absolute;
+    right:5px;
+    top:12px;
+    display: block;
+    z-index: 999;
+}
+.search, .naviga , .user{
+    float: left;
+}
+.naviga{
+    padding-left: 50px;
+    line-height: 50px;
+    
+}
+.finder{
+    padding-right:30px;
+}
+.user{
+    line-height: 50px;
+    /* position: relative; */
+    float: right;
+    z-index: 9999;
+}
+
+.twolist{
+    position: absolute;
+    top:105%;
+    left: 0;  
+    width: 355px;
+    padding:6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    z-index: 9999;
+
+}
+.twolist p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+.twolist p:last-child{
+    border:none;
+}
+.twolist .content{
+    display: none;
+}
+.twolist a{
+    position: absolute;
+    right: 10px;
+    background-color: green;
+}
+/* 内容部分 */
+.wrap{
+    padding:20px;
+    margin-top:30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    border:1px solid #ebebeb;
+    border-radius: 3px;   
+}
+.content-wrap{
+    margin-top: 30px;
+}
+.for-left{
+    background-color: #fff;
+    border-right: 1px solid #ebebeb;
+
+}
+.for-right{
+    height: 869px;
+    background-color: #fff;
+}
+/* 右侧部分 */
+.mod{
+    padding:16px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;  
+}
+.mod .head{
+    height: 40px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ebebeb;
+    
+}
+.mod .head h4{
+    font-size: 100%;
+    float: left;
+    margin:0;
+}
+.mod .head a{
+    text-decoration: none;
+    float:right;
+}
+/* 左边 */
+.explore-list{
+    padding:20px 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.explore-head{
+    height: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.explore-head span{
+    font-size: 140%;
+}
+.explore-head ul {
+    list-style: none;
+    float: right;
+    margin-top: 18px;
+}
+.explore-head ul li{
+    float: left;
+    padding: 0 10px;
+    margin:0 15px;
+}
+.explore-head ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* 问题 */
+
+.body-list{
+    padding:15px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    height: 90px;
+    border-bottom: 1px solid #ebebeb;
+}
+.pic{
+    width: 50px;
+    height: 50px;
+    background:url(../img/list1.jpg) no-repeat;
+    border-radius: 4px;
+    position: absolute;
+    top:20px;
+    left:0;
+}
+.question{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 32px;
+    
+}
+.contribution{
+    position: absolute;
+    top:15px;right:0;
+}
+.contribution span{
+    font-size: 12px;
+    color:#999;
+}
+.question .title{
+    font-size:12px;
+    color: #999
+}
+.question span a{
+    text-decoration: none;
+}
+.contribution span::after{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background:url(../img/list2.jpg) no-repeat;
+    background-size:25px 25px;
+    border-radius: 50%;
+}
+.page{
+    float: right;
+    right:10px;
+}
+.page .color a{
+    background-color:#499ef3;
+}
+footer{
+    margin: 40px 0;
+    text-align: center;
+}
